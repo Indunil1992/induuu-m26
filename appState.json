@@ -23,7 +23,7 @@
           "name": "induuuM26"
         },
         "triggers": [],
-        "lastUpdated": 1616743502109
+        "lastUpdated": 1616746119171
       },
       "205c4261-4541-4acf-ad96-13aedbf6db30": {
         "id": "205c4261-4541-4acf-ad96-13aedbf6db30",
@@ -34,6 +34,16 @@
         "children": [],
         "isRemovable": true,
         "filePath": "package.json"
+      },
+      "ea8ba531-9ad0-4329-aa84-5f74074f9a0d": {
+        "id": "ea8ba531-9ad0-4329-aa84-5f74074f9a0d",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
       }
     },
     "openFiles": [
@@ -52,18 +62,45 @@
           "topicDisplayName": "m26induSNS",
           "subscriptions": []
         }
+      },
+      "pubsubcloudBuilds": {
+        "name": "pubsubcloudBuilds",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "cloud-builds",
+            "subscriptions": []
+          }
+        }
       }
     },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
       {
         "lambdaId": "all",
         "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "GCP_SERVICE_ACCOUNT_KEY",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "GCP_PROJECT",
         "varValue": null,
         "shouldPersist": false,
         "displayOnly": false,
@@ -78,6 +115,13 @@
           "version": "2.817.0",
           "dev": true,
           "notRemovable": false
+        },
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
         }
       }
     }
@@ -91,7 +135,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1616743566663
+    "lastSave": 1616746630720
   },
   "VCS_STATE": {
     "provider": "GitHub",
