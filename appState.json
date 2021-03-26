@@ -1,0 +1,103 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6fb03630-71d9-48bd-90bf-8b452231a96f": {
+        "id": "6fb03630-71d9-48bd-90bf-8b452231a96f",
+        "parent": null,
+        "name": "induuu-m26.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "induuu-m26.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "induuuM26"
+        },
+        "triggers": [],
+        "lastUpdated": 1616743502109
+      },
+      "205c4261-4541-4acf-ad96-13aedbf6db30": {
+        "id": "205c4261-4541-4acf-ad96-13aedbf6db30",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      }
+    },
+    "openFiles": [
+      "6fb03630-71d9-48bd-90bf-8b452231a96f"
+    ],
+    "currentFileId": "6fb03630-71d9-48bd-90bf-8b452231a96f",
+    "resources": {
+      "snsinduSNSm26": {
+        "name": "snsinduSNSm26",
+        "type": "SNS",
+        "config": {
+          "topicMode": 0,
+          "topicName": "induSNSm26",
+          "topicArn": "arn:aws:sns:us-east-1:CUR_AWS_ACCOUNT:induSNSm26",
+          "snsType": 0,
+          "topicDisplayName": "m26induSNS",
+          "subscriptions": []
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.2",
+    "projectName": "induuu-m26",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1616743566663
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "induuu-m26",
+      "url": "https://github.com/Indunil1992/induuu-m26"
+    }
+  }
+}
